@@ -20,6 +20,16 @@ p {
     text-align: center;
 }
 
-.hero {
+.hero p {
     font-size: 36px;
+    font-weight:bold;
+    margin:0;
+    color: #272142;
+}
+
+.hero h2 {
+    font-family:"Poppins", sans-serif;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
 }
