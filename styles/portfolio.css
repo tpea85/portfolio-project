@@ -24,8 +24,10 @@ h6 {
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-size:96px;
+    line-height: 1.5;
+
 }
 
 h2 {
@@ -80,9 +82,13 @@ p {
     padding: 120px 60px;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
     h1 {
         font-size: 60px;
+    }
+
+    h2 {
+        font-size: 44px;
     }
     .project-description {
         padding: 0;
